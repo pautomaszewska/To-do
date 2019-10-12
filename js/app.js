@@ -6,7 +6,9 @@ let number = 0;
 
 add.on('click', function () {
     number ++;
-    list.append($('<li>', {text: "Task number " + number}))
+    list.append($('<li>', {text: "Task number " + number}));
+    remove.attr('disabled', false);
+    clear.attr('disabled', false)
 });
 
 remove.on('click', function () {
@@ -17,5 +19,7 @@ remove.on('click', function () {
 
 clear.on('click', function () {
     list.empty();
-    number = 0
+    number = 0;
+    remove.attr('disabled', true);
+    $(this).attr('disabled', true)
 });
