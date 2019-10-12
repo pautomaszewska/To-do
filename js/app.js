@@ -6,20 +6,24 @@ let number = 0;
 
 add.on('click', function () {
     number ++;
-    list.append($('<li>', {text: "Task number " + number}));
-    remove.attr('disabled', false);
-    clear.attr('disabled', false)
+    list.append($('<div>', {text: "Task number " + number}));
+    remove.attr('hidden', false);
+    clear.attr('hidden', false)
 });
 
 remove.on('click', function () {
     let last = list.children().last();
     last.remove();
-    number --
+    number --;
+    if (number==0) {
+        $(this).attr('hidden', true);
+        clear.attr('hidden', true)
+    }
 });
 
 clear.on('click', function () {
     list.empty();
     number = 0;
-    remove.attr('disabled', true);
-    $(this).attr('disabled', true)
+    $(this).attr('hidden', true);
+    remove.attr('hidden', true)
 });

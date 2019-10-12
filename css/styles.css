@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #55c1ff;
+    border-radius: 100px;
+    border:  transparent;
+    width: 100px;
+    height: 100px;
+}
+
+#main-header {
+    font-family: 'Cookie', Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    border: none;
+}
+
+.buttons {
+    border: #e7c8dd 4px solid;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 0;
+}
+
+.buttons:hover {
+    background-color: #e7c8dd;
+}
