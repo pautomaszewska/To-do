@@ -1,8 +1,7 @@
 #main-header {
     border: transparent;
     border-radius: 100px;
-    /*background-color: #b5aa99;*/
-     background-image: linear-gradient(to right top, #006b66, #217e78, #37928b, #4ba69e, #5ebab1);
+    background-image: linear-gradient(to right top, #006b66, #217e78, #37928b, #4ba69e, #5ebab1);
     color: white;
     font-family: 'Cookie', Helvetica, sans-serif;
     font-size: 30px;
