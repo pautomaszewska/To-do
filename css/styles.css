@@ -1,26 +1,9 @@
-/*.navbar {*/
-/*    background-color: #55c1ff;*/
-/*    border-radius: 100px;*/
-/*    border:  transparent;*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*}*/
-
 #main-header {
-    /* border: transparent;*/
-    /*border-radius: 10px;*/
-
-    /*!*width: 280px;*!*/
-    /*padding: 5px 5px;*/
-    /*margin: 5px auto;*/
-    /*font-family: 'Cookie', Helvetica, sans-serif;*/
-    /*font-size: 30px;*/
-    /*!*color: white;*!*/
-    /*!*padding: 0;*!*/
-    /*!*border: none;*!*/
     border: transparent;
     border-radius: 100px;
-    background-color: #d5cabd;
+    /*background-color: #b5aa99;*/
+     background-image: linear-gradient(to right top, #006b66, #217e78, #37928b, #4ba69e, #5ebab1);
+    color: white;
     font-family: 'Cookie', Helvetica, sans-serif;
     font-size: 30px;
     width: 80px;
@@ -42,8 +25,24 @@
     color: white;
 }
 
+#remove {
+    border: #5ebab1 2px solid;
+}
+
+#remove:hover {
+    background-color: #5ebab1;
+}
+
+#clear {
+    border: #006b63 2px solid;
+}
+
+#clear:hover {
+    background-color: #006b63;
+}
+
 textarea {
-    border: darkgray solid 1px;
+    border: #ddd7c6 solid 1px;
     border-radius: 10px;
     height: 40px;
     width: 285px;
@@ -51,18 +50,15 @@ textarea {
 }
 
 textarea:focus {
-    box-shadow: 1px 1px 5px 1px rgba(145,138,145,1);
-
+    box-shadow: 1px 1px 10px 5px #ddd7c6;
 }
 
 .task {
-    border: #d5cabd solid 1px;
+    border: #ddd7c6 solid 2px;
     border-radius: 10px;
-
     width: 285px;
     padding: 5px 5px;
     margin: 5px auto;
     overflow: hidden;
-
 }
 
