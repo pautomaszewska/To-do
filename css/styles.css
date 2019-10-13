@@ -1,28 +1,68 @@
-.navbar {
-    background-color: #55c1ff;
-    border-radius: 100px;
-    border:  transparent;
-    width: 100px;
-    height: 100px;
-}
+/*.navbar {*/
+/*    background-color: #55c1ff;*/
+/*    border-radius: 100px;*/
+/*    border:  transparent;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/
 
 #main-header {
+    /* border: transparent;*/
+    /*border-radius: 10px;*/
+
+    /*!*width: 280px;*!*/
+    /*padding: 5px 5px;*/
+    /*margin: 5px auto;*/
+    /*font-family: 'Cookie', Helvetica, sans-serif;*/
+    /*font-size: 30px;*/
+    /*!*color: white;*!*/
+    /*!*padding: 0;*!*/
+    /*!*border: none;*!*/
+    border: transparent;
+    border-radius: 100px;
+    background-color: #d5cabd;
     font-family: 'Cookie', Helvetica, sans-serif;
     font-size: 30px;
-    color: white;
-    padding: 0;
-    border: none;
+    width: 80px;
+    height: 80px;
+    padding:  18px 10px;
 }
 
 .buttons {
-    border: #e7c8dd 4px solid;
-    border-radius: 100px;
+    border: #C22792 2px solid;
+    border-radius: 10px;
     width: 80px;
-    height: 80px;
+    height: 40px;
     background-color: white;
     padding: 0;
 }
 
 .buttons:hover {
-    background-color: #e7c8dd;
+    background-color: #C22792;
+    color: white;
 }
+
+input {
+    border: darkgray solid 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 285px;
+    overflow: hidden;
+}
+
+input:focus {
+    box-shadow: 1px 1px 5px 1px rgba(145,138,145,1);
+
+}
+
+.task {
+    border: #d5cabd solid 1px;
+    border-radius: 10px;
+
+    width: 285px;
+    padding: 5px 5px;
+    margin: 5px auto;
+    overflow: hidden;
+
+}
+

@@ -3,12 +3,20 @@ const remove = $('#remove');
 const clear = $('#clear');
 let list = $('#list');
 let number = 0;
+let newtask = $('#newtask');
+
+console.log(newtask)
 
 add.on('click', function () {
-    number ++;
-    list.append($('<div>', {text: "Task number " + number}));
-    remove.attr('hidden', false);
-    clear.attr('hidden', false)
+    if (newtask.val() !== '') {
+        number ++;
+        list.append($('<div>', {text: "Task number " + number + ': ' + newtask.val(), class: 'task'}))
+        remove.attr('hidden', false);
+        clear.attr('hidden', false)
+    } else {
+        alert('Task name cannot be empty!')
+    }
+
 });
 
 remove.on('click', function () {
