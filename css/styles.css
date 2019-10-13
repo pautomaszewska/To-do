@@ -42,7 +42,7 @@
     color: white;
 }
 
-input {
+textarea {
     border: darkgray solid 1px;
     border-radius: 10px;
     height: 40px;
@@ -50,7 +50,7 @@ input {
     overflow: hidden;
 }
 
-input:focus {
+textarea:focus {
     box-shadow: 1px 1px 5px 1px rgba(145,138,145,1);
 
 }
